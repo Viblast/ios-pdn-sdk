@@ -1,6 +1,6 @@
 
 ### Project setup
-Let's assume you have an existing (or you've just created) XCode project.   
+Let's assume you have an existing (or you've just created) XCode project..   
 
 Unzip ...  
 Drag and drop the unzipped content in your project.  
