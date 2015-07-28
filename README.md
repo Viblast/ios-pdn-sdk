@@ -1,3 +1,8 @@
+###Overview
+
+Viblast PDN iOS SDK extends your peer-assisted video delivery to the part of your audience using iOS devices. Viblast PDN allows you to stream to web and mobile audiences up to 70% more efficiently.
+
+Visit Viblast PDN's [web page](http://viblast.com/pdn/)
 
 ### Project setup
 Let's assume you have an existing XCode project or you've just created one.   
