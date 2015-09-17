@@ -75,8 +75,10 @@ static void *kPlayerStatusObserveContext = &kPlayerStatusObserveContext;
 - (void)start {
   [self setLoadingVisible:YES];
   
+  // Viblast: Visit http://viblast.com/demo-hls/ to observe as you peer is connecting to the swarm :)
   self.player = [[VBPlayer alloc]
-                 initWithCDN:@"http://live.unified-streaming.com/loop/loop.isml/loop.mpd?format=mp4"
+                 initWithCDN:@"http://cdn3.viblast.com/streams/hls/airshow/playlist.m3u8"
+                 enabledPDN:YES
                  licenseKey:nil];
                  
   [self.player addObserver:self

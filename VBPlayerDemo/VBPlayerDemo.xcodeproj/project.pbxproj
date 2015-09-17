@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C65EE801B3C2574005C8E00 /* VBPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C65EE7F1B3C2574005C8E00 /* VBPlayer.a */; };
 		2C697BDB1B330A360053BAE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C697BDA1B330A360053BAE5 /* main.m */; };
 		2C697BDE1B330A360053BAE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C697BDD1B330A360053BAE5 /* AppDelegate.m */; };
 		2C697BE11B330A360053BAE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C697BE01B330A360053BAE5 /* ViewController.m */; };
@@ -21,6 +20,7 @@
 		2C697C091B3314C00053BAE5 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C697C081B3314C00053BAE5 /* VideoToolbox.framework */; };
 		2C697C0B1B3314C70053BAE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C697C0A1B3314C70053BAE5 /* CoreGraphics.framework */; };
 		2C697C0D1B3314CE0053BAE5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C697C0C1B3314CE0053BAE5 /* CoreMedia.framework */; };
+		2C8A93611B46E0FA00820EA9 /* VBPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8A93601B46E0FA00820EA9 /* VBPlayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C65EE7B1B3C2496005C8E00 /* VBPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBPlayer.h; sourceTree = "<group>"; };
-		2C65EE7F1B3C2574005C8E00 /* VBPlayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = VBPlayer.a; sourceTree = "<group>"; };
 		2C697BD51B330A360053BAE5 /* VBPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VBPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C697BD91B330A360053BAE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C697BDA1B330A360053BAE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,6 +54,8 @@
 		2C697C081B3314C00053BAE5 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		2C697C0A1B3314C70053BAE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2C697C0C1B3314CE0053BAE5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2C8A93601B46E0FA00820EA9 /* VBPlayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = VBPlayer.a; sourceTree = "<group>"; };
+		2CF74CC11B46975900083CE1 /* VBPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBPlayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 				2C697C0B1B3314C70053BAE5 /* CoreGraphics.framework in Frameworks */,
 				2C697C091B3314C00053BAE5 /* VideoToolbox.framework in Frameworks */,
 				2C697C071B3314B90053BAE5 /* AVFoundation.framework in Frameworks */,
-				2C65EE801B3C2574005C8E00 /* VBPlayer.a in Frameworks */,
+				2C8A93611B46E0FA00820EA9 /* VBPlayer.a in Frameworks */,
 				2C697C051B33149C0053BAE5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,8 +108,8 @@
 		2C697BD71B330A360053BAE5 /* VBPlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2C65EE7F1B3C2574005C8E00 /* VBPlayer.a */,
-				2C65EE7B1B3C2496005C8E00 /* VBPlayer.h */,
+				2C8A93601B46E0FA00820EA9 /* VBPlayer.a */,
+				2CF74CC11B46975900083CE1 /* VBPlayer.h */,
 				2C697BDC1B330A360053BAE5 /* AppDelegate.h */,
 				2C697BDD1B330A360053BAE5 /* AppDelegate.m */,
 				2C697BDF1B330A360053BAE5 /* ViewController.h */,
@@ -381,7 +381,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ivan Ermolaev (FH7H5UY96V)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VBPlayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -400,7 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ivan Ermolaev (FH7H5UY96V)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VBPlayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
